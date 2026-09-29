@@ -28,3 +28,48 @@ agentic-chatbot-fastapi/
 ├── Pipfile.lock      # Locked dependencies
 ├── README.md
 └── LICENSE
+```
+## Requirements
+Python 3.10+
+Required Python dependencies from requirements.txt
+API credentials for the configured AI/search providers when running with live services
+
+## Running the Application
+
+Install the dependencies:
+
+pip install -r requirements.txt
+
+Start the FastAPI backend:
+
+python backend.py
+
+Start the Streamlit frontend in another terminal:
+
+streamlit run frontend.py
+
+The frontend communicates with the FastAPI backend through the /chat endpoint.
+
+## Configuration
+
+The application uses environment variables for external service credentials.
+
+GROQ_API_KEY=
+OPENAI_API_KEY=
+TAVILY_API_KEY=
+
+Do not commit API keys or other secrets to the repository.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+### GitHub par kaise update karna hai
+
+1. Repo → **README.md** open karo.
+2. ✏️ **Edit** button click karo.
+3. Purana content delete karo.
+4. Upar wala content paste karo.
+5. **Commit changes**.
+6. Commit message:
