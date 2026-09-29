@@ -64,12 +64,3 @@ Do not commit API keys or other secrets to the repository.
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-
-### GitHub par kaise update karna hai
-
-1. Repo → **README.md** open karo.
-2. ✏️ **Edit** button click karo.
-3. Purana content delete karo.
-4. Upar wala content paste karo.
-5. **Commit changes**.
-6. Commit message:
